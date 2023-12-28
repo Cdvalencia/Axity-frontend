@@ -1,0 +1,227 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-size: 12px;
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track{
+  background: #f1f1f1
+}
+
+::-webkit-scrollbar-thumb{
+  background: #A6A8AB
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #555
+}
+
+textarea{
+  resize: none;
+  height: 100px
+}
+
+.hide{
+  display: none !important
+}
+
+ul, ol{
+  list-style: none;
+  padding: 0;
+  margin: 0
+}
+
+input[type=radio]{
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin: 0;
+  &:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: solid 1px white;
+    border-radius: 50%;
+    background: #5F6771;
+    border: 1px solid #1F2D39;
+    box-sizing: border-box;
+  }
+}
+
+input[type=radio]:checked{;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin: 0;
+  &:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+    background: #5F6771;
+    border: 1px solid #1F2D39;
+    box-sizing: border-box;
+  }
+  &:after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: 7px;
+    bottom: 0;
+    left: 7px;
+    right: 0;
+    border-radius: 50%;
+    background: $c2;
+  }
+}
+
+input[type=checkbox]:not(.PrivateSwitchBase-input){
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+  &:before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #5F6771;
+    border: 1px solid #1F2D39;
+    box-sizing: border-box;
+    border-radius: 1px;
+  }
+}
+
+input[type=checkbox]:checked:not(.PrivateSwitchBase-input){
+  width: 16px;
+  height: 16px;
+  position: relative;
+  margin: 0;
+  &:before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #5F6771;
+    border: 1px solid #1F2D39;
+    box-sizing: border-box;
+    border-radius: 1px;
+  }
+  &:after{
+    content: "x";
+    width: 10px;
+    height: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    top: -3px;
+    bottom: 0;
+    left: 5px;
+    right: 0;
+    color: white;
+  }
+}
+
+input[type="file"]{
+  width: 100px;
+  background: $c2;
+  position: relative;
+  height: 35px;
+  border-radius: 2px;
+  margin-left: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  &:before{
+    content:"";
+    background: $c2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.1em;
+    color: #33414E;
+    border-radius: 2px;
+  }
+  &:after{
+    content:attr(data-text);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.1em;
+    color: $c3
+  }
+}
+
+.react-datepicker{
+    font-size: 1rem;
+}
+
+.css-jsexje-MuiSwitch-thumb{  
+  top: 9px;
+}
+
+.swal2-container{
+  z-index: 1301;
+}
+
+.swal2-popup{
+  font-size: 15px;
+  .swal2-title{
+    font-size: 1.5em;
+  }
+}
+
+
+@media screen and (max-width: 1600px){}
+@media screen and (max-width: 1400px){}
+@media screen and (max-width: 1300px){}
+@media screen and (max-width: 1200px){}
+@media screen and (max-width: 1024px){}
+@media screen and (max-width: 900px){}
+@media screen and (max-width: 760px){}
+@media screen and (max-width: 600px){}
+@media screen and (max-width: 400px){}
+@media screen and (max-width: 320px){}

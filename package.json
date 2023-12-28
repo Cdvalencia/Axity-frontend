@@ -1,0 +1,59 @@
+{
+  "name": "Prueba-Axity-Frontend",
+  "author": "Cristian Valencia",
+  "displayName": "Prueba Axity - Frontend",
+  "version": "1.0.0",
+  "description": "Prueba Axity - Frontend",
+  "main": "index.js",
+  "homepage": "https://main.d1j29lgo6wvoj3.amplifyapp.com/",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && node scripts/postbuild.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.12",
+    "@mui/material": "^5.14.12",
+    "axios": "0.21.0",
+    "date-fns": "^2.30.0",
+    "history": "^5.3.0",
+    "material-react-table": "^1.15.0",
+    "namor": "^1.1.2",
+    "node-sass": "^9.0.0",
+    "react": "^18.2.0",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "^5.0.1",
+    "sass-loader": "^13.3.2",
+    "styled-components": "5.2.0",
+    "sweetalert2": "^11.7.12",
+    "sweetalert2-react-content": "^5.0.7"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  }
+}

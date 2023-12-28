@@ -1,0 +1,18 @@
+@mixin flex{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center
+}
+
+
+@media screen and (max-width: 1600px){}
+@media screen and (max-width: 1400px){}
+@media screen and (max-width: 1300px){}
+@media screen and (max-width: 1200px){}
+@media screen and (max-width: 1024px){}
+@media screen and (max-width: 900px){}
+@media screen and (max-width: 760px){}
+@media screen and (max-width: 600px){}
+@media screen and (max-width: 400px){}
+@media screen and (max-width: 320px){}

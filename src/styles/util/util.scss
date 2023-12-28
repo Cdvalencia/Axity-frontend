@@ -1,0 +1,35 @@
+
+.btn{
+  display: flex;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $c1;
+  padding: 5px 50px;
+  background: $c1;
+  color: white;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.btn2{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid $c1;
+  padding: 5px 50px;
+  background: white;
+  color: $c1;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.App{
+  &>section{
+    padding-top: 60px;
+  }
+}
